@@ -8,12 +8,39 @@
       "toc": false
     }
   },
+  "roadmap": {
+    "title": "AnythingLLM Roadmap",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    } 
+  },
   "-- Getting Started": {
     "type": "separator",
     "title": "Getting Started"
   },
+  "introduction": {
+    "title": "Introduction",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "features": {
+    "title": "Feature Overview",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
   "setup": {
-    "title": "Qubex LLM Setup",
+    "title": "AnythingLLM Setup",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -32,6 +59,37 @@
   },
   "configuration": {
     "title": "Other configurations",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "-- Installation Guides": {
+    "type": "separator",
+    "title": "Installation Guides"
+  },
+  "installation-desktop": {
+    "title": "AnythingLLM Desktop",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "installation-docker": {
+    "title": "AnythingLLM Self-hosted",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "cloud": {
+    "title": "AnythingLLM Cloud",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -62,16 +120,7 @@
     }
   },
   "browser-extension": {
-    "title": "Qubex LLM Browser Extension",
-    "theme": {
-      "breadcrumb": true,
-      "footer": true,
-      "pagination": true,
-      "toc": true
-    }
-  },
-  "embedded-chat-widget": {
-    "title": "Qubex LLM Embedded Chat Widget",
+    "title": "AnythingLLM Browser Extension",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -128,17 +177,39 @@
     "theme": {
       "breadcrumb": true,
       "footer": true,
-      "pagination": true, 
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "changelog": {
+    "title": "Desktop Changelogs",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "contribute": {
+    "title": "Contribute",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "pagination": true,
       "toc": true
     }
   },
   "company": {
-    "title": "Lenai Studios",
+    "title": "Mintplex Labs",
     "type": "menu",
     "items": {
+      "sponsor": {
+        "title": "Sponsor",
+        "href": "https://github.com/sponsors/Mintplex-Labs"
+      },
       "contact": {
         "title": "Contact Us",
-        "href": "https://lenai.us"
+        "href": "mailto:team@mintplexlabs.com"
       },
       "licences": {
         "title": "Licences",
