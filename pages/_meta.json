@@ -1,0 +1,239 @@
+{
+  "index": {
+    "title": "▲ Home",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "pagination": true,
+      "toc": false
+    }
+  },
+  "roadmap": {
+    "title": "AnythingLLM Roadmap",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "-- Getting Started": {
+    "type": "separator",
+    "title": "Getting Started"
+  },
+  "introduction": {
+    "title": "Introduction",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "features": {
+    "title": "Feature Overview",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "setup": {
+    "title": "AnythingLLM Setup",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "chat-ui": {
+    "title": "Chat Interface overview",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "configuration": {
+    "title": "Other configurations",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "-- Installation Guides": {
+    "type": "separator",
+    "title": "Installation Guides"
+  },
+  "installation-desktop": {
+    "title": "AnythingLLM Desktop",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "installation-docker": {
+    "title": "AnythingLLM Self-hosted",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "cloud": {
+    "title": "AnythingLLM Cloud",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "-- Guides": {
+    "type": "separator",
+    "title": "Guides"
+  },
+  "agent": {
+    "title": "Using AI Agents",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "fine-tuning": {
+    "title": "Model Fine-tuning",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "browser-extension": {
+    "title": "AnythingLLM Browser Extension",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "-- FAQ": {
+    "type": "separator",
+    "title": "Frequently Asked Questions"
+  },
+  "llm-not-using-my-docs": {
+    "title": "LLM not using my docs!",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "agent-not-using-tools": {
+    "title": "AI Agent not using tools!",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "ollama-connection-troubleshooting": {
+    "title": "Ollama Troubleshooting",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "fetch-failed-on-upload": {
+    "title": "Fetch failed error on embed",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "--- More": {
+    "type": "separator",
+    "title": "More"
+  },
+  "beta-preview": {
+    "title": "Beta Previews",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "changelog": {
+    "title": "Desktop Changelogs",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "contribute": {
+    "title": "Contribute",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  },
+  "company": {
+    "title": "Mintplex Labs",
+    "type": "menu",
+    "items": {
+      "sponsor": {
+        "title": "Sponsor",
+        "href": "https://github.com/sponsors/Mintplex-Labs"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "href": "mailto:team@mintplexlabs.com"
+      },
+      "licences": {
+        "title": "Licences",
+        "href": "/licences"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "href": "/privacy"
+      }
+    }
+  },
+  "privacy": {
+    "display": "hidden"
+  },
+  "licences": {
+    "display": "hidden"
+  },
+  "support": {
+    "title": "Support",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "pagination": true,
+      "toc": true
+    }
+  }
+}
