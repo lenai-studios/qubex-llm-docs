@@ -15,7 +15,7 @@ module.exports = withNextra({
   // async redirects() {
   //   return [
   //     {
-  //       source: '/anythingllm-cloud/502',
+  //       source: '/Qubex LLM-cloud/502',
   //       destination: '/cloud/error-502',
   //       permanent: true,
   //     },

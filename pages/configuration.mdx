@@ -1,6 +1,6 @@
 ---
 title: "Configuration"
-description: "Other settings, environment variables, and configurations for AnythingLLM"
+description: "Other settings, environment variables, and configurations for Qubex LLM"
 ---
 
 import { Callout } from "nextra/components";
@@ -10,11 +10,11 @@ import { Callout } from "nextra/components";
   If you are not a developer, you should not set environment variables directly. Instead, you should use the in-app interface to manage environment variables.
 
 **Desktop:**
-If you are using AnythingLLM Desktop, do not edit the `.env` file. This guide is only for users who are using AnythingLLM Self-hosted or Docker.
+If you are using Qubex LLM Desktop, do not edit the `.env` file. This guide is only for users who are using Qubex LLM Self-hosted or Docker.
 
 </Callout>
 
-# Configuration of AnythingLLM
+# Configuration of Qubex LLM
 
 In general, the majority of configurations you can set are through environment variables and there is typically an associated in-app interface to manage these settings so you don't have to edit them directly.
 
@@ -22,13 +22,13 @@ However, there are a few configurations that are not configurable via the in-app
 
 <Callout type="info" emoji="️💡">
   **Tip:** After you set these environment variables, you will need to restart
-  the AnythingLLM service or container for the changes to take effect.
+  the Qubex LLM service or container for the changes to take effect.
 </Callout>
 
 ## Disable View Chat History
 
 Modification of the `DISABLE_VIEW_CHAT_HISTORY` environment variable allows you to disable the **frontend** ability to view chat history by anyone with an account on the instance as well as the instance administrator.
-This blocks any user, including yourself, from viewing chat history from users using the AnythingLLM chat interface **and** via external embed widgets.
+This blocks any user, including yourself, from viewing chat history from users using the Qubex LLM chat interface **and** via external embed widgets.
 
 - **This does not impact users from seeing their own chat histories in chat or the LLM from being able to use them for continuous conversations.**
 - This **does not** impact the ability to use API keys to access chat histories via the associated API endpoints.
@@ -53,20 +53,20 @@ Fully remove or comment out the `DISABLE_VIEW_CHAT_HISTORY` environment variable
 <Callout type="error" emoji="️🚨">
   **Important:** You should use an independent API key for using this feature so
   you can revoke it if needed. This feature configuration is best used for
-  internally facing AnythingLLM instances that are not exposed to the public
+  internally facing Qubex LLM instances that are not exposed to the public
   internet for the best security practices.
 </Callout>
 
 Modification of the `SIMPLE_SSO_ENABLED` environment variable allows easily enable third party SSO solutions that do not require a full OAuth integration. This environment variable
 will enable you to generate a temporary authentication link **per user** that can be visited in browser to automatically login the user.
 
-This feature is most useful for when you have AnythingLLM as a simple sub-service within a much larger system and you want to leverage existing user authentication flows within that system and want to provide a seamless login experience for your users to your AnythingLLM instance.
+This feature is most useful for when you have Qubex LLM as a simple sub-service within a much larger system and you want to leverage existing user authentication flows within that system and want to provide a seamless login experience for your users to your Qubex LLM instance.
 
 ### Prerequisites
 
 - **Your instance must be in multi-user mode** to use this feature.
-- You should provision an API key for AnythingLLM so you can create new users as well as issue temporary authentication links for users.
-- The user must already exist within AnythingLLM before using this feature. You can create a user via the in-app interface or the API.
+- You should provision an API key for Qubex LLM so you can create new users as well as issue temporary authentication links for users.
+- The user must already exist within Qubex LLM before using this feature. You can create a user via the in-app interface or the API.
 
 ### Enable
 
@@ -79,11 +79,11 @@ SIMPLE_SSO_ENABLED="enable"
 
 ### Integration
 
-Once enabled, you can issue a temporary authentication link for a user leveraging the `/v1/users/{id}/issue-auth-token` endpoint via the AnythingLLM API.
-You simply need to provide the user ID and the API key you created earlier to generate a temporary authentication token that can be used by the target user to login to AnythingLLM.
+Once enabled, you can issue a temporary authentication link for a user leveraging the `/v1/users/{id}/issue-auth-token` endpoint via the Qubex LLM API.
+You simply need to provide the user ID and the API key you created earlier to generate a temporary authentication token that can be used by the target user to login to Qubex LLM.
 
 ```bash copy
-curl -X POST "https://your-anythingllm-instance.com/v1/users/{id}/issue-auth-token" \
+curl -X POST "https://your-Qubex LLM-instance.com/v1/users/{id}/issue-auth-token" \
   -H "Authorization: Bearer {api_key}"
 # Example Response
 # {
@@ -92,20 +92,20 @@ curl -X POST "https://your-anythingllm-instance.com/v1/users/{id}/issue-auth-tok
 # }
 ```
 
-Now, the user can visit the provided `loginPath` URL in their browser to be automatically logged in to AnythingLLM!
+Now, the user can visit the provided `loginPath` URL in their browser to be automatically logged in to Qubex LLM!
 
 ```text copy
-https://your-anythingllm-instance.com/sso/simple?token=1234567890
+https://your-Qubex LLM-instance.com/sso/simple?token=1234567890
 ```
 
 All temporary authentication tokens expire after 1 hour and are single-use only. Once logged in, the user sessions will be valid for 30 days.
-The user will be redirected to the home page of AnythingLLM after logging in.
+The user will be redirected to the home page of Qubex LLM after logging in.
 You can optionally redirect the user to a different URL after logging in by appending `&redirectTo={path/to/redirect}` to the query string of the login path.
 
 For example:
 
 ```text copy
-https://your-anythingllm-instance.com/sso/simple?token=1234567890&redirectTo=/workspaces/sample-workspace
+https://your-Qubex LLM-instance.com/sso/simple?token=1234567890&redirectTo=/workspaces/sample-workspace
 ```
 
 Will redirect the user to the `/workspaces/sample-workspace` chat page after logging in. This can be useful if you want to redirect the user to a specific workspace they have access to after logging in.

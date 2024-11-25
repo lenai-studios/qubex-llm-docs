@@ -9,7 +9,7 @@
     }
   },
   "roadmap": {
-    "title": "AnythingLLM Roadmap",
+    "title": "Qubex LLM Roadmap",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -40,7 +40,7 @@
     }
   },
   "setup": {
-    "title": "AnythingLLM Setup",
+    "title": "Qubex LLM Setup",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -71,7 +71,7 @@
     "title": "Installation Guides"
   },
   "installation-desktop": {
-    "title": "AnythingLLM Desktop",
+    "title": "Qubex LLM Desktop",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -80,7 +80,7 @@
     }
   },
   "installation-docker": {
-    "title": "AnythingLLM Self-hosted",
+    "title": "Qubex LLM Self-hosted",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -89,7 +89,7 @@
     }
   },
   "cloud": {
-    "title": "AnythingLLM Cloud",
+    "title": "Qubex LLM Cloud",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -120,7 +120,7 @@
     }
   },
   "browser-extension": {
-    "title": "AnythingLLM Browser Extension",
+    "title": "Qubex LLM Browser Extension",
     "theme": {
       "breadcrumb": true,
       "footer": true,

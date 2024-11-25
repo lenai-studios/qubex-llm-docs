@@ -49,7 +49,7 @@
     "title": "Desktop FAQ"
   },
   "update": {
-    "title": "Update AnythingLLM",
+    "title": "Update Qubex LLM",
     "theme": {
       "breadcrumb": true,
       "footer": true,
@@ -76,7 +76,7 @@
     }
   },
   "uninstall": {
-    "title": "Uninstall AnythingLLM",
+    "title": "Uninstall Qubex LLM",
     "theme": {
       "breadcrumb": true,
       "footer": true,

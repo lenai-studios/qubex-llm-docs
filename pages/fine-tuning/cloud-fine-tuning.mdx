@@ -1,6 +1,6 @@
 ---
 title: "Cloud Fine-Tuning"
-description: "How to use AnythingLLM Cloud Fine-Tuning"
+description: "How to use Qubex LLM Cloud Fine-Tuning"
 ---
 
 import { Callout } from "nextra/components";
@@ -8,7 +8,7 @@ import Image from "next/image";
 
 # How does this work?
 
-In AnythingLLM (Docker or Desktop), you may have see an alert at the top of the application or saw the "Order Fine-Tune" on the workspace chats page.
+In Qubex LLM (Docker or Desktop), you may have see an alert at the top of the application or saw the "Order Fine-Tune" on the workspace chats page.
 
 <Image
   src="/images/fine-tuning/order-button.png"
@@ -20,7 +20,7 @@ In AnythingLLM (Docker or Desktop), you may have see an alert at the top of the 
 
 # Cloud Fine Tuning walkthrough
 
-The AnythingLLM application on both Docker and desktop will guide you through the process to order a fine-tuned based on your data.
+The Qubex LLM application on both Docker and desktop will guide you through the process to order a fine-tuned based on your data.
 
 <Callout type="info">
 Currently, you **are required** to have chats with your workspaces in order to produce a fine-tuned model.
@@ -32,7 +32,7 @@ Currently, you **are required** to have chats with your workspaces in order to p
 ## Introduction
 
 The first step is an overview and brief education on _what_ a fine-tuned model is and where it can exceed expectations and also where fine-tuning
-does not out-perform the traditional setup of AnythingLLM.
+does not out-perform the traditional setup of Qubex LLM.
 
 In general, if you are hoping a fine-tune model means it can have 100% perfect recall with citations - you actually want RAG!
 
@@ -49,7 +49,7 @@ by default without prompting - that is a great use for a fine-tune.
 
 ## Legal Agreement & Delivery Terms
 
-Since the AnythingLLM training process does require a brief transfer of information from your device to our secure cloud you should review these terms in-app.
+Since the Qubex LLM training process does require a brief transfer of information from your device to our secure cloud you should review these terms in-app.
 
 We are committed to absolute privacy of your information. During this process your data is stored in a secure cloud storage location _only_ for the duration of training. Your data is _never retained_
 and it is only used for the training process directly. We do not audit or review the data uploaded to the training environment. You training session also runs in an isolated environment ensure full privacy.
@@ -64,7 +64,7 @@ The agreement with Mintplex Labs is concluded once you are delivered the downloa
 While training a custom LLM can unlock another level for accuracy and competency in your LLM we make no guarantees that the model will perform better as it is based on
 whatever data was available during upload. Additionally, this model is yours to keep and it will work anywhere you run models locally already as it is the same format.
 
-See [loading custom models in AnythingLLM &rarr;](/fine-tuning/loading-custom-models)
+See [loading custom models in Qubex LLM &rarr;](/fine-tuning/loading-custom-models)
 
 ## Training Model selection
 
@@ -73,7 +73,7 @@ See [loading custom models in AnythingLLM &rarr;](/fine-tuning/loading-custom-mo
   you about your fine-tune.
 </Callout>
 
-AnythingLLM maintains a list of trainable base models. Currently we try to stay within the Llama family of models but will expand to `Phi` and `Mistral` families soon.
+Qubex LLM maintains a list of trainable base models. Currently we try to stay within the Llama family of models but will expand to `Phi` and `Mistral` families soon.
 
 <Image
   src="/images/fine-tuning/order-details-finished.png"
@@ -85,7 +85,7 @@ AnythingLLM maintains a list of trainable base models. Currently we try to stay 
 
 ## Data selection
 
-In AnythingLLM, you can select the data you wish to train on by _workspace_ and _quality_. The quality metric is the "Thumbs up" icon below chats. If you or your users have not been leaving feedback
+In Qubex LLM, you can select the data you wish to train on by _workspace_ and _quality_. The quality metric is the "Thumbs up" icon below chats. If you or your users have not been leaving feedback
 you may want to leave this feature off. In general, the more data the better the result can be.
 
 <Image

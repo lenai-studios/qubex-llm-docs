@@ -11,7 +11,7 @@
 1. Clone this Repository to your local machine using git clone:
 
 ```sh
-git clone https://github.com/JosephASG/qubex-llm-docs.git
+git clone https://github.com/lenai-studios/qubex-llm-docs.git
 ```
 
 
